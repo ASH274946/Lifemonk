@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211198737212",
+    "project_id": "lifemonk-2eb49",
+    "storage_bucket": "lifemonk-2eb49.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211198737212:android:2902e16d318dc08a95fc39",
+        "android_client_info": {
+          "package_name": "com.lifemonk.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRHALbG79cmLfCS8-2QSn1Ku-FfusKr6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211198737212:android:9c6c323e669bb0ba95fc39",
+        "android_client_info": {
+          "package_name": "com.lifemonk.lifemonk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRHALbG79cmLfCS8-2QSn1Ku-FfusKr6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+# Environment files - DO NOT COMMIT
+
+.env
+.env.\*
+
+# Local setup guide - NEVER COMMIT
+
+SETUP_LOCAL.md
+DEPLOYMENT_SUMMARY.md
+SECURITY_AUDIT.md
+DEBUG_ONBOARDING.md
+\*.local.md
+
+# Local documentation - not needed on GitHub
+
+GITHUB_PUSH_FINAL_SUMMARY.md
+GITHUB_PUSH_SECURITY_REPORT.md
+GITHUB_PUSH_TEAM_QUICK_REFERENCE.md
+CMS_FIRST_IMPLEMENTATION_SUMMARY.md
+CMS_INTEGRATION_QUICK_REFERENCE.md
+CMS_READY_WORKSHOPS_ARCHITECTURE.md
+WORKSHOPS_IMPLEMENTATION_SUMMARY.md
+WORKSHOPS_VISUAL_GUIDE.md
+SECURITY_AUDIT_FINAL.md
+
+# Sensitive implementation details - KEEP LOCAL ONLY
+AUTHENTICATION.md
+BREATHING_FEATURE.md
+CMS_ADMIN_SETUP_GUIDE.md
+FEATURES_COMPLETE_SUMMARY.md
+GITHUB_PROFILE_READY.md
+IMPLEMENTATION_REPORT_FINAL.md
+NAVIGATION_FLOW_IMPLEMENTATION.md
+QUICK_REFERENCE.md
+WORKSHOPS_FEATURE.md
+
+# Miscellaneous
+
+_.class
+_.log
+_.pyc
+_.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+
+_.iml
+_.ipr
+\*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+
+# VS Code which you may wish to be included in version control, so this line
+
+# is commented out by default.
+
+#.vscode/
+
+# Flutter/Dart/Pub related
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+
+app.\*.symbols
+
+# Obfuscation related
+
+app.\*.map.json
+
+# Android Studio will place build artifacts here
+
+/android/app/debug
+/android/app/profile
+/android/app/release

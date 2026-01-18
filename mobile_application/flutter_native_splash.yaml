@@ -1,0 +1,39 @@
+# Flutter Native Splash Configuration
+# This shows immediately when app icon is tapped (before Flutter engine loads)
+# Eliminates the black screen problem
+# Run: dart run flutter_native_splash:create
+
+flutter_native_splash:
+  # Background color matching app's cream background (login screen)
+  color: "#F5F3EE"
+  
+  # Dark mode background
+  color_dark: "#1A1A1A"
+  
+  # Logo image with "lifemonk" text
+  image: assets/images/splash_logo.png
+  image_dark: assets/images/splash_logo.png
+  
+  # Android 12+ specific settings (new splash screen API)
+  android_12:
+    color: "#F5F3EE"
+    color_dark: "#1A1A1A"
+    image: assets/images/splash_logo_android12.png
+    image_dark: assets/images/splash_logo_android12.png
+    icon_background_color: "#F5F3EE"
+    icon_background_color_dark: "#1A1A1A"
+  
+  # Fullscreen mode - removes status bar
+  fullscreen: true
+  
+  # Android specific
+  android: true
+  android_gravity: center
+  
+  # iOS specific  
+  ios: true
+  ios_content_mode: center
+  
+  # Web specific
+  web: true
+  web_image_mode: center

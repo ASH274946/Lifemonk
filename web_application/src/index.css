@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-light: #FAFAFA;
+    --bg-cream: #FAF8F5;
+    --bg-white: #FFFFFF;
+    --bg-gray: #F5F7FA;
+    --text-primary: #1A1A1A;
+    --text-secondary: #6B7280;
+    --text-light: #9CA3AF;
+  }
+
+  .dark {
+    --bg-light: #0F172A;
+    /* Slate 900 */
+    --bg-cream: #1E293B;
+    /* Slate 800 */
+    --bg-white: #1E293B;
+    /* Slate 800 */
+    --bg-gray: #334155;
+    /* Slate 700 */
+    --text-primary: #F8FAFC;
+    /* Slate 50 */
+    --text-secondary: #94A3B8;
+    /* Slate 400 */
+    --text-light: #64748B;
+    /* Slate 500 */
+  }
+
+  body {
+    @apply bg-background-light text-text-primary antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  * {
+    scroll-behavior: smooth !important;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  .glass-button {
+    @apply bg-primary-light/90 backdrop-blur-sm hover:bg-primary-light transition-all duration-300 text-white shadow-lg;
+  }
+}
