@@ -1,6 +1,6 @@
 # Lifemonk 🧘‍♂️🎓
 
-Lifemonk <https://lifemonk.vercel.app/>  is a modern EdTech ecosystem designed to transform the learning experience for children through gamification. By merging a powerful React-based web dashboard with a versatile Flutter mobile application, Lifemonk provides a seamless, cross-platform journey for both students and educators.
+[Lifemonk](https://lifemonk.vercel.app/)  is a modern EdTech ecosystem designed to transform the learning experience for children through gamification. By merging a powerful React-based web dashboard with a versatile Flutter mobile application, Lifemonk provides a seamless, cross-platform journey for both students and educators.
 
 ---
 
